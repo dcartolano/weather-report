@@ -23,7 +23,7 @@ Change the name of the .env.example file to just .env, and enter your API key fo
 
 ## Usage
 
-If you only want to navigate to the deployed site, you can view it [here]().
+If you only want to navigate to the deployed site, you can view it [here](https://weather-report-tgh1.onrender.com).
 
 If you are trying to view it locally through the terminal, right click on the package.json file in the root folder and select "Open in Integrated Terminal", then run the command "npm i" followed by "npm run start."
 
