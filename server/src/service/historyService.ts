@@ -34,7 +34,6 @@ class HistoryService {
         return await this.read().then((cities) => {
             let parsedCities: City[];
 
-            // If cities isn't an array or can't be turned into one, send back a new empty array
             try {
                 parsedCities = [].concat(JSON.parse(cities));
             } catch (err) {
@@ -51,10 +50,8 @@ class HistoryService {
             throw new Error('city cannot be blank');
         }
 
-        // Add a unique id to the state using uuid package
         const newCity: City = { name: city, id: uuidv4() };
 
-        // Get all cities, add the new city, write all the updated cities, return the newCity
         return await this.getCities()
             .then((cities) => {
                 if (cities.find((index) => index.name === city)) {

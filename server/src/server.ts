@@ -1,7 +1,7 @@
 import dotenv from 'dotenv';
 import express from 'express';
 dotenv.config();
-console.log(process.env); // from Roger to show how this works
+console.log(process.env);
 
 // Import the routes
 import routes from './routes/index.js';
