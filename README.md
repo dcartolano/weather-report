@@ -6,9 +6,7 @@ This app aims to create an app that allows the user to specify a city and view t
 
 The app accomplishes this by integrating 3rd party API weather data. This app also utilizes a server, which allows it to be deployed to a website through the use of Render or similar services.
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
